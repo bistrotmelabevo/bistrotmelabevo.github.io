@@ -1032,3 +1032,7 @@ body::-webkit-scrollbar-thumb {
 #f8 {
   width: 125%;
 }
+
+#developerContact:visited #developerContact:active #developerContact:hover {
+ color: white;
+}
