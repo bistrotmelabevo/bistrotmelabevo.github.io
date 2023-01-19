@@ -36,7 +36,7 @@
 
   <div class="hero_area">
     <div class="bg-box">
-      <img src="images/hero-bg.jpg" alt="">
+      <img src="images/hero-bg3.jpg" alt="">
     </div>
     <!-- header section strats -->
     <header class="header_section">
@@ -44,7 +44,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-              Feane
+              Mela Bevo Bistrot
             </span>
           </a>
 
@@ -64,7 +64,7 @@
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="book.html">Book Table <span class="sr-only">(current)</span> </a>
+                <a class="nav-link" href="book.html">Prenota <span class="sr-only">(current)</span> </a>
               </li>
             </ul>
           </div>
@@ -79,49 +79,32 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Book A Table
+          Prenota ora
         </h2>
       </div>
       <div class="row">
         <div class="col-md-6">
           <div class="form_container">
-            <form action="">
+            <form action="https://formsubmit.co/roby.messina02@gmail.com" method="POST">
               <div>
-                <input type="text" class="form-control" placeholder="Your Name" />
+                <input name="Nome" type="text" class="form-control" placeholder="Nome" required />
               </div>
               <div>
-                <input type="text" class="form-control" placeholder="Phone Number" />
+                <input name="Numero di telefono" type="number" class="form-control" placeholder="Numero di telefono" required />
               </div>
               <div>
-                <input type="email" class="form-control" placeholder="Your Email" />
+                <input name="Email" type="email" class="form-control" placeholder="Email" required />
               </div>
               <div>
-                <select class="form-control nice-select wide">
-                  <option value="" disabled selected>
-                    How many persons?
-                  </option>
-                  <option value="">
-                    2
-                  </option>
-                  <option value="">
-                    3
-                  </option>
-                  <option value="">
-                    4
-                  </option>
-                  <option value="">
-                    5
-                  </option>
-                </select>
+                <input name="Clienti" type="number" class="form-control" placeholder="Per quante persone?" min="1" required />
               </div>
               <div>
-                <input type="date" class="form-control">
+                <input type="date" name="data" class="form-control" required>
               </div>
               <div class="btn_box">
-                <button>
-                  Book Now
-                </button>
+                <button type="submit"> Prenota ora</button>
               </div>
+
             </form>
           </div>
         </div>
@@ -142,25 +125,25 @@
         <div class="col-md-4 footer-col">
           <div class="footer_contact">
             <h4>
-              Contact Us
+              Contattaci
             </h4>
             <div class="contact_link_box">
-              <a href="">
+              <a href="https://www.google.com/maps/place/Bistrot+Melabevo/@44.6000789,7.7334651,17z/data=!4m13!1m7!3m6!1s0x12cd577102dd8baf:0x72a4e1f25b7b7456!2s12045+San+Lorenzo+Coni,+Italie!3b1!8m2!3d44.6012659!4d7.7357228!3m4!1s0x12cd57eaed8a4aab:0xd5f3f657eec49958!8m2!3d44.600109!4d7.7340795">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span>
                   Location
                 </span>
               </a>
-              <a href="">
+              <a href="tel:+39 389 347 7852">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call +01 1234567890
+                  +39 389 347 7852
                 </span>
               </a>
-              <a href="">
+              <a href="mailto: bistrotmelabevo@gmail.com">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                  bistrotmelabevo@gmail.com
                 </span>
               </a>
             </div>
@@ -172,45 +155,36 @@
               Mela Bevo Bistrot
             </a>
             <p>
-              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
+              Vi aspettiamo qui al Bistrot Mela Bevo e speriamo che vi piaccia
             </p>
+            <p>Sito sviluppato da <a id="developerContact" href="https://robertomessina.github.io"> Messina Roberto </a> </p>
             <div class="footer_social">
-              <a href="">
+              <a href="https://www.facebook.com/profile.php?id=100086638480951">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-              </a>
-              <a href="">
+              <!-- <a href="">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-pinterest" aria-hidden="true"></i>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
         <div class="col-md-4 footer-col">
           <h4>
-            Opening Hours
+            Orari di Apertura
           </h4>
           <p>
-            Everyday
+            Dal Lunedì al Venerdì
+            5:00 - 20:00
           </p>
           <p>
-            10.00 Am -10.00 Pm
+            Il Sabato
+            5:00 - 13:00
           </p>
         </div>
       </div>
       <div class="footer-info">
         <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a><br><br>
-          &copy; <span id="displayYear"></span> Distributed By
-          <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+          <span id="displayYear"></span>
         </p>
       </div>
     </div>
